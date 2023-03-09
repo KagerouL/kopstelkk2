@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pembungkus {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size:3vh;
+    float: left;
+    font-weight: bold;
+    color: #C4FFDD;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    top: 0;
+    background: #062743;
+    border-bottom: 1px solid #F9F5EB;
+    font-size: 1vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#C4FFDD;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 8px 0px 8px;
+    text-decoration: none;
+}
+.gambar{
+    padding: 2vh;
+}
+
+.gambar img{
+    width: 18vh;
+    float: left;
+    margin-right: 20px;
+}
+
+.gambar h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.gambar h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gambar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gambar ul li{
+    float: left;
+}
+
+.tulisan{
+    padding-left: 2vh;
+}
+
+.gambar ul li a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #062743;
+}
+
+.deskripsi{
+    padding: 5vh;
+    float: left;
+}
+
+.deskripsi li{
+    float: left;
+    padding-right:40px;
+    text-align: center;
+}
+
+button{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 16vh;
+    padding: 5px 30px 5px 30px;
+    color: #C4FFDD;
+    font-weight: bolder;
+    background-color: #062743;
+    border-radius: 23px;
+}
